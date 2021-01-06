@@ -1,0 +1,55 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginTop="50dp"
+            android:layout_margin="50dp"
+            android:background="@drawable/buttonstyle"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADD"
+            android:onClick="addition"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_margin="50dp"
+            android:background="@drawable/buttonstyle"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUBTRACT"
+            android:onClick="subtraction"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_margin="50dp"
+            android:background="@drawable/buttonstyle"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MULTIPLY"
+            android:onClick="product"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_margin="50dp"
+            android:background="@drawable/buttonstyle"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DIVIDE"
+            android:onClick="division"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
